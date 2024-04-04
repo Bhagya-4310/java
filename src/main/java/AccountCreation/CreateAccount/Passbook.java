@@ -1,4 +1,4 @@
-package AccountCreation;
+package AccountCreation.CreateAccount;
 
 public class Passbook {
     public String accountNumber;

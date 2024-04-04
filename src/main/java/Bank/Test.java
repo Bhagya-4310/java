@@ -1,7 +1,7 @@
 package Bank;
 
  public class Test {
-     public static void main(String[] args) {
+     public static void main(String[] args){
          Account account = new Account();
          account.accountNumber = 123456;
          account.balance = 1000;

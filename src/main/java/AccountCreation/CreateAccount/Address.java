@@ -1,4 +1,4 @@
-package AccountCreation;
+package AccountCreation.CreateAccount;
 public class Address {
     public String  pinCode;
     public String area;

@@ -1,4 +1,4 @@
-package AccountCreation;
+package AccountCreation.CreateAccount;
 
 public class TestClass{
     public static void main(String[] args) {
