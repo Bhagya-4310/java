@@ -1,4 +1,6 @@
-package AccountCreation.CreateAccount;
+package AccountCreation;
+
+import CreateAccount.Address;
 
 public class User {
     public String firstName;

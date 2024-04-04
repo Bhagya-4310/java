@@ -1,4 +1,7 @@
-package AccountCreation.CreateAccount;
+package AccountCreation;
+
+import CreateAccount.AccountService;
+import CreateAccount.Address;
 
 public class TestClass{
     public static void main(String[] args) {

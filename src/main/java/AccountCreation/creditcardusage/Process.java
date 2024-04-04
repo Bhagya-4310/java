@@ -14,11 +14,12 @@ public class Process{
         if(totalPrice <= carddetails.cardLimit){
             int remainingBalance=carddetails.amount-totalPrice;
             System.out.println("balanceAmount:"+remainingBalance);
+            System.out.println("cardlimit:"+carddetails.cardLimit);
         }else{
+            System.out.println("cardlimit:"+carddetails.cardLimit);
             System.out.println("limit exceded");
         }
             System.out.println("totalPurchasePrice:"+totalPrice);
-
         return purchase;
 
     }
