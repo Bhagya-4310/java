@@ -1,18 +1,23 @@
 package AccountCreation.creditcardusage;
 
-public class Process{
-    public Purchase purchasebill(Carddetails carddetails){
-         carddetails.amount=4000;
+import AccountCreation.Shopping.Product;
+import AccountCreation.Shopping.ProductSpecification;
+
+public class CardService {
+   /* public Product purchasebill(Carddetails carddetails){
+        ProductSpecification productSpecification=new ProductSpecification("36","pink","rarerabbit");
+         carddetails.availableBalance=4000;
          carddetails.cardLimit=5000;
-         Purchase purchase=new Purchase();
+         Product purchase=new Product();
          purchase.airPods=2000;
          purchase.clothes=1000;
          purchase.shoes=3000;
+         purchase.balance=5000;
+         purchase.productSpecification=productSpecification;
          purchase.cardlimit=carddetails.cardLimit;
          int totalPrice=purchase.airPods+purchase.clothes+purchase.shoes;
-
         if(totalPrice <= carddetails.cardLimit){
-            int remainingBalance=carddetails.amount-totalPrice;
+            int remainingBalance=carddetails.availableBalance-totalPrice;
             System.out.println("balanceAmount:"+remainingBalance);
             System.out.println("cardlimit:"+carddetails.cardLimit);
         }else{
@@ -21,6 +26,5 @@ public class Process{
         }
             System.out.println("totalPurchasePrice:"+totalPrice);
         return purchase;
-
     }
-}
+} */}
